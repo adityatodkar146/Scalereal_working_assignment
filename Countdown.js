@@ -30,7 +30,7 @@ function startCountdown() {
 
 function cancelCountdown() {
   clearInterval(countdownInterval);
-  countdownDisplay.textContent = '';
+  countdownDisplay.textContent = 'mission abort!';
 }
 
 function resetCountdown() {
